@@ -12,7 +12,7 @@ export const Home = () => {
           <div>
              <div className='file'>
                 <form>
-                   <input type="file" name="file" />
+                   <input type="file"/>
                    <button id='analizar' className='btn btn-primary' type="submit" onClick={HandleClick}>Analizar</button>
                 </form>
              </div>

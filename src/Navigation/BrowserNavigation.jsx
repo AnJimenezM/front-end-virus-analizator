@@ -27,7 +27,7 @@ export const BrowserNavigation = () => {
             <Route index element={<Home/>}/>
             <Route  path='/Home' index element={<Home/>}/>
             <Route  path='/Acerca-de' index element={<About/>}></Route>
-            <Route  path='/Login' index element={<Login/>}></Route>
+            <Route  path='/login' index element={<Login/>}></Route>
             <Route  path='/Registro' index element={<Register/>}></Route>
             
             </Route>
