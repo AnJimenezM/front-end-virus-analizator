@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { userForm } from '../../hooks/userForm'
 import { Global } from '../../global/Global';
 import useAuth from '../../hooks/useAuth';
+import { Link } from 'react-router-dom';
 
 
 export const Login = () => {
@@ -88,7 +89,7 @@ export const Login = () => {
         
         <button className='ingreso'>Iniciar sesión</button>
         
-        <p>¿No tienes cuenta? <a className='navegation-r' href="/Registro">Regístrate aquí</a></p>
+        <p>¿No tienes cuenta? <Link className='navegation-r' to="/Registro">Registrate aquí</Link></p>
     </form>
    </div>
     </div>
