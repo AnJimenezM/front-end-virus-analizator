@@ -1000,8 +1000,8 @@
         left: 259px;
       }
       .menu{
-        position: absolute;
-        left: 76px;
+        
+        margin-left: -60px;
       }
     
       .header{
@@ -1010,7 +1010,7 @@
       
       .file{
         display: block;
-        margin-left: 1px;
+        margin-left: 10px;
       }
     
        .icon-file{
