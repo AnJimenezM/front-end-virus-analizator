@@ -88,7 +88,7 @@ export const Login = () => {
         
         <button className='ingreso'>Iniciar sesión</button>
         
-        <p>¿No tienes cuenta? <a className='navegation-r' href="/register">Regístrate aquí</a></p>
+        <p>¿No tienes cuenta? <a className='navegation-r' href="/Registro">Regístrate aquí</a></p>
     </form>
    </div>
     </div>
