@@ -3,7 +3,7 @@ import { userForm } from '../../hooks/userForm';
 import { useNavigate } from 'react-router-dom';
 import { Global } from '../../global/Global';
 import Swal from 'sweetalert2';
-
+import { Link } from 'react-router-dom';
 export const Register = () => {
   // Usamos el hook personalizado useForm para cargar los datos del formulario
   const { form, changed } = userForm({});
@@ -108,7 +108,7 @@ export const Register = () => {
             
             <button className="btn btn-primary register" value="Registrarse" type="submit">Registrarse</button>
 
-            <p className='text-center'>Si ya tienes cuenta, ingresa <a className='click-login' href="/Login">aquí</a></p>
+            <p className='text-center'>Si ya tienes cuenta, ingresa <Link className='click-login' to='/login'>aqui</Link></p>
             <a className='text-center back' href="/">Volver</a>
           </form>
         </div>
